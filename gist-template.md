@@ -20,6 +20,7 @@ The purpose of this tutorial is to break down the expression below and explain e
 - [Quantifiers](#quantifiers)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
 - [Character Classes](#character-classes)
+- [Resources](#resources)
 - [Author](#author)
 
 ## Regex Components
