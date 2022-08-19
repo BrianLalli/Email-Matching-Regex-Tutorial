@@ -26,10 +26,10 @@ The purpose of this tutorial is to break down the expression below and explain e
 
 Our regex: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/` has the following components:
 - Anchors `^` `$`
+- Grouping and Capturing `([a-z0-9_\.-]+)`, `([\da-z\.-]+)`, `([a-z\.]{2,6})`
+- Bracket Expressions `[a-z]`, `[0-9]`, `[_\.-]`
 - Quantifiers `+` `{}`
-- Captures and Groups `([a-z0-9_\.-]+)`
-- Bracket Expressions `[ ]`
-- Character Classes `[a-z\d]`
+- Character Classes `([\da-z\.-]+)`
 
 Because regex's are literal, the pattern needs to be wrapped with `/` characters.
 
@@ -73,8 +73,33 @@ Our regex: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/` has the following
 - `{+}`: connects the email's 3 parts: `username + @email-provider + .com`
 
 ### Greedy and Lazy Match
+Quantifiers are characterized as either "Greedy" or "Lazy".
+
+- Greedy qualifiers match elements as many times as possible and can be changed to Lazy qualifiers by adding a `?`.
+- Lazy qualifiers match elements as few times as possible.
+
+Our regex uses Greedy quantifiers:
+- `+`
+- `{}`
 
 ### Character Classes
+Character classes define a set of characters. 
+
+Our regex has one character class:
+- `\d` -- Equivalent to the bracket expression `[0-9]`
+
+It can be found in the second subexpression of our regex: 
+
+- `([\da-z\.-]+)`
+
+Threfore for this section of the email, numbers (`0-9`), characters (`a-z`) and special characters, (`.-`) are valid inputs.
+
+## Resources
+[Chelsea Sexton](https://github.com/chelsea314)
+[Andrada Gacichevici](https://gist.github.com/andradag)
+[how to create a gist](https://help.github.com/en/github/writing-on-github/creating-gists)
+[video on how to use gists](https://www.youtube.com/watch?v=wc2NlcWjQHw)
+[Regex Tutorial: Matching a Username](https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial)
 
 ## Author
 
