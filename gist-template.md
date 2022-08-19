@@ -35,7 +35,9 @@ Our regex: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/` has the following
 Because regex's are literal, the pattern needs to be wrapped with `/` characters.
 
 ### Anchors
-Notice the characters `^` and `$` at the bookends of the regex:
+Notice the characters `^` and `$` at the bookends of the regex.
+
+Our regex has 2 anchors:
 - `^` - The caret anchor matches the beginning of the string.
 - `$` - The dollar anchor matches the end of the string.
 
