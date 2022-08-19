@@ -20,7 +20,6 @@ The purpose of this tutorial is to break down the expression below and explain e
 - [Quantifiers](#quantifiers)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
 - [Character Classes](#character-classes)
-- [Resources](#resources)
 - [Author](#author)
 
 ## Regex Components
@@ -97,12 +96,6 @@ It can be found in the second subexpression of our regex:
 
 Threfore for this section of the email, numbers (`0-9`), characters (`a-z`) and special characters, (`.-`) are valid inputs.
 
-## Resources
-- [Chelsea Sexton](https://github.com/chelsea314)
-- [Andrada Gacichevici](https://gist.github.com/andradag)
-- [how to create a gist](https://help.github.com/en/github/writing-on-github/creating-gists)
-- [video on how to use gists](https://www.youtube.com/watch?v=wc2NlcWjQHw)
-- [Regex Tutorial: Matching a Username](https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial)
 
 ## Author
 
