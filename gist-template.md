@@ -49,7 +49,7 @@ Quantifiers set limits on the string, or individual parts of a string that match
 
 Our regex: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/` has the following quantifiers:
 - `{2, 6}`: requires the final bracket expression `[a-z\.]` must be between 2 and 6 characters and include lowercase characters `a-z` as well as the dot character `.`.
--- typically this is standardized as `.com` at the end of an email.
+(Typically this is standardized as `.com` at the end of an email.)
 - `{+}`: connects the email's 3 parts: `username + @email-provider + .com`
 
 ### Greedy and Lazy Match
