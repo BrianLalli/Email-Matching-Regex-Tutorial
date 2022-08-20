@@ -7,7 +7,7 @@ Create a tutorial that explains how a specific regular expression, or regex, fun
 ## Gist
 Click link to view the 'Match an Email Regex' gist.
 
-[Match an Email Regex Gist](https://github.com/BrianLalli/Email-Matching-Regex-Tutorial/blob/main/gist-template.md)
+[Match an Email Regex Gist](https://gist.github.com/BrianLalli/a31d02b754ea6888253a60b1e564aca0)
 
 
 ## Credits
